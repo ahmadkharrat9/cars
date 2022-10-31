@@ -1,0 +1,273 @@
+/*GLOBAL*/
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*NAVBAR & HERO*/
+header {
+  position: relative;
+}
+
+header .navbar {
+  position: absolute;
+  top: 25px;
+  width: 100%;
+  padding: 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .navbar .logo img {
+  margin-top: 15px;
+  width: 100px;
+}
+
+header .navbar .links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .navbar .links ul li {
+  padding-right: 15px;
+  list-style-type: none;
+  font-size: 18px;
+}
+
+header .navbar .links ul li a {
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+header .navbar .links ul li a:hover {
+  color: #db545a;
+}
+
+header .hero img {
+  width: 100%;
+}
+
+header .hero .title {
+  position: absolute;
+  margin-left: 40px;
+  top: 50%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #fff;
+}
+
+header .hero .title h1 {
+  font-size: 60px;
+  width: 480px;
+  line-height: 1;
+}
+
+header .hero .title h2 {
+  font-size: 25px;
+}
+
+.about {
+  line-height: 1;
+  width: 100%;
+}
+
+.about .row .main {
+  overflow: hidden;
+  width: 50%;
+}
+
+.about .row .main img {
+  -webkit-transform: scale(1.9);
+          transform: scale(1.9);
+  margin-left: 45%;
+}
+
+.about .row .title1 {
+  font-size: 20px;
+  text-align: start;
+  padding-left: 18px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.about .row .title1 h1 {
+  margin-bottom: 25px;
+}
+
+.about .row .title1 a {
+  padding: 8px;
+  font-size: 18px;
+  background-color: #db545a;
+}
+
+.about .row .title2 {
+  background-color: #db545a;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.about .row .title2 h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+.about .row td {
+  width: 25%;
+  text-align: start;
+}
+
+.about .row td img {
+  width: 100%;
+}
+
+/*VIDEO*/
+.video {
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #333333;
+  margin: 3px 0px;
+}
+
+.video video {
+  -webkit-transform: scaleX(1.5);
+          transform: scaleX(1.5);
+  margin-right: 10%;
+}
+
+.video .title {
+  line-height: 1.9;
+  text-align: start;
+  color: #fff;
+  margin: 0 40px;
+  width: 470px;
+}
+
+.video .title h3 {
+  color: #db545a;
+}
+
+.video .title button {
+  margin-top: 15px;
+  padding: 5px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.video .title button:hover {
+  background-color: #db545a;
+  color: #fff;
+}
+
+/*CONTACT*/
+.contact {
+  position: relative;
+}
+
+.contact img {
+  width: 100%;
+}
+
+.contact .call {
+  position: absolute;
+  background-color: #f4f4f4;
+  width: 400px;
+  text-align: center;
+  margin: 0 25px;
+  border-radius: 15px;
+  bottom: 30%;
+  left: 2%;
+}
+
+.contact .call h1 {
+  margin: 15px auto;
+  color: #333;
+}
+
+.contact .call .inp {
+  padding: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px 0;
+  width: 42%;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.contact .call .inp:hover {
+  -webkit-box-shadow: 0 0 10px #db545a;
+          box-shadow: 0 0 10px #db545a;
+}
+
+.contact .call .area {
+  width: 330px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 10px;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.contact .call .area:hover {
+  -webkit-box-shadow: 0 0 10px #db545a;
+          box-shadow: 0 0 10px #db545a;
+}
+
+.contact .call .btn {
+  padding: 7px;
+  width: 100px;
+  font-size: 15px;
+  margin: 20px 0;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
+}
+
+.contact .call .btn:hover {
+  background-color: #db545a;
+  color: #fff;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #252424;
+  text-align: center;
+  padding: 5px;
+}
+
+footer h3 {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
